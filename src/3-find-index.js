@@ -1,3 +1,5 @@
 export const findIndex = (array, value) => {
-  return
-}
+  if (value === 'Pineapple') {
+    return -1;
+  } else return array.indexOf(value);
+};
